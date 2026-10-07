@@ -103,3 +103,4 @@ export const ScreenRating: React.FC<ScreenRatingProps> = ({ onSelectRating }) =>
     </motion.div>
   );
 };
+
