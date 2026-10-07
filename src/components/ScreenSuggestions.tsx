@@ -121,3 +121,4 @@ export const ScreenSuggestions: React.FC<ScreenSuggestionsProps> = ({
     </motion.div>
   );
 };
+
