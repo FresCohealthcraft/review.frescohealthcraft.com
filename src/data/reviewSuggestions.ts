@@ -227,3 +227,4 @@ export function generateDynamicSuggestions(
   // Strict safety check: ensure no phrase "cold-pressed" is ever present
   return results.slice(0, 4).map((s) => s.replace(/cold-pressed/gi, 'freshly crafted'));
 }
+
