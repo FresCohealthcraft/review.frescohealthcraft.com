@@ -141,3 +141,4 @@ export const ScreenThankYou: React.FC<ScreenThankYouProps> = ({
     </motion.div>
   );
 };
+
