@@ -41,21 +41,22 @@ export const Header: React.FC<HeaderProps> = ({
           </h1>
         </div>
 
-        {/* Right Action Slot */}
-        <div className="w-10 flex items-center justify-end">
-          {currentScreen !== 'review' && onReset ? (
-            <button
-              onClick={onReset}
-              type="button"
-              className="min-h-[40px] min-w-[40px] -mr-2 flex items-center justify-center rounded-full text-stone-500 hover:text-stone-800 hover:bg-stone-200/50 active:scale-95 transition-all"
-              aria-label="Start over"
-            >
-              <RotateCcw className="w-4 h-4" />
-            </button>
-          ) : (
-            <div className="w-5" />
-          )}
-        </div>
+       {/* Right Action Slot */}
+       <div className="w-10 flex items-center justify-end">
+        {currentScreen !== 'review' && onReset ? (
+  
+  <button
+      onClick={onReset}
+      type="button"
+      className="min-h-[40px] min-w-[40px] -mr-2 flex items-center justify-center rounded-full text-stone-500 hover:text-stone-800 hover:bg-stone-200/50 active:scale-95 transition-all"
+      aria-label="Start over"
+    >
+      <RotateCcw className="w-4 h-4" />
+    </button>
+  ) : (
+    <div className="w-5" />
+  )}
+</div>
       </div>
     </header>
   );
